@@ -1,4 +1,5 @@
-
 a=input()
-for i in range(len(a)-1,-1,-1):
-    print(a[i],end='')
+a=a.split()
+a=a[::-1]
+for i in a:
+    print(i,end=" ")
